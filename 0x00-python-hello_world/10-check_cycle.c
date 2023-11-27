@@ -1,6 +1,6 @@
 #include<stdlib.h>
 #include<stdio.h>
-#include "list.h"
+#include "lists.h"
 
 /**
  * check_cycle - check if a siny linked list has a cycle
