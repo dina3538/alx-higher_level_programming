@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-# 0-square.py by dina3538
-"""Defines a square """
+"""Define a class Square."""
 
 
 class Square:
-    """Represents a square"""
+    """Represent a square."""
 
-def __init__(self, size):
-    """Initializing this square class
-    Args: size - represnets the size of the square defined
+    def __init__(self, size):
+    """Initialize a new Square.
+
+    Args:
+        size (int): The size of the new sq  uare.
     """
-
     self.__size = size
