@@ -15,7 +15,7 @@ def matrix_divided(matrix, div):
     Returns:
     A new matrix representing the result of the division.
     """
-                                                                                    if (not isinstance(matrix, list) or matrix == [] or
+    if (not isinstance(matrix, list) or matrix == [] or
                                                                                             not all(isinstance(row, list) for row in matrix) or
                                                                                             not all((isinstance(ele, int) or isinstance(ele, float))
                                                                                                 for ele in [num for row in matrix for num in row])):
@@ -26,5 +26,5 @@ def matrix_divided(matrix, div):
                                                                                         if not isinstance(div, int) and not isinstance(div, float):
                                                                                             raise TypeError("div must be a number")
                                                                                         if div == 0:
-                                                                                            raise ZeroDivisionError("division by zero"
-                                                                                                    return ([list(map(lambda x: round(x / div, 2), row)) for row in matrix])
+                                                                                            raise ZeroDivisionError("division by zero")
+                                                                                        return ([list(map(lambda x: round(x / div, 2), row)) for row in matrix])
