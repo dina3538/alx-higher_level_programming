@@ -72,8 +72,5 @@ def matrix_mul(m_a, m_b):
             my_row.append(product)
         matrix2.append(my_row)
 
-    return matrix
+    return matrix2
 
-if __name__ == "__main__":
-    import doctest
-    doctest.testfile("tests/100-matrix_mul.txt")
